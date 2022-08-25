@@ -1,0 +1,24 @@
+{
+  "name": "notes-web",
+  "version": "1.0.0",
+  "description": "NPM package for notes taking website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NOTES",
+    "NPM"
+  ],
+  "author": "Umair Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0"
+  }
+}

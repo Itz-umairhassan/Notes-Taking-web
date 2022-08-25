@@ -1,0 +1,27 @@
+
+{{>header}}
+        <div id="form-area">
+            <h2>Add Your Note</h2>
+
+            <form action="/submission" method="post" id="my_form">
+
+                <div class="form-item">
+                    <label for="title">Add the Title</label>
+                    <input type="text" id="title" name="title">
+                </div>
+
+                <div class="form-item">
+                    <label for="note">Add the Note</label>
+                    <textarea name="noteData" id="note" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="btn" id="submit-button"><h3>Add Note</h3></button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="../../static/notes_script.js"></script>
+</body>
+
+</html>
